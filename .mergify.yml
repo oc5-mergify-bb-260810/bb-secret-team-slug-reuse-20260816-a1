@@ -1,0 +1,8 @@
+pull_request_rules:
+  - name: BB secret team slug reuse resolver
+    conditions:
+      - title ~= ^BB SECRET TEAM SLUG REUSE
+    actions:
+      request_reviews:
+        users_from_teams:
+          - bb-secret-team-slug-reuse-20260816-a1
